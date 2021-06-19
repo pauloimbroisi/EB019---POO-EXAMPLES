@@ -6,13 +6,13 @@ public class Main {
 		/**Brief -> New return the adress of "x" */
 		Account account = new Account();
 		
-		account.balance = 1000;
+		System.out.printf("\n \n The balance is: $ %2f \n \n", account.get_balance());
 		
 		account.withdraw_money(150);
 		
 		System.out.printf("\n \n withdraw money: $ 150,00");
 		
-		System.out.printf("\n \n new balance is: $ %2f \n \n", account.balance);
+		System.out.printf("\n \n new balance is: $ %2f \n \n", account.get_balance());
 		
 	}
 }
