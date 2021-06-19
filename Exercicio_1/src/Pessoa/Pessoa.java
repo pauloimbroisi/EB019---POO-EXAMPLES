@@ -24,6 +24,10 @@ public class Pessoa {
 	public void pintar_cabelo(String cor) {
 		cor_cabelo = cor;
 	}
+	
+	public void aumentar_peso(int incremento) {
+		peso_kg += incremento;
+	}
 
 	public String getCor_cabelo() {
 		return cor_cabelo;
